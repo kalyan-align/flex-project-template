@@ -1,6 +1,6 @@
 {
   "custom_data": {
-    "serverless_functions_domain": "<YOUR_SERVERLESS_DOMAIN>",
+    "serverless_functions_domain": "custom-flex-extensions-serverless-7113-dev.twil.io",
     "common": {
       "log_level": "info",
       "audit_log_ttl": 1209600,
@@ -148,7 +148,7 @@
       },
       "schedule_manager": {
         "enabled": true,
-        "serverless_domain": "<YOUR_SCHEDULE_MANAGER_DOMAIN>"
+        "serverless_domain": "schedule-manager-7203-dev.twil.io"
       },
       "multi_call": {
         "enabled": false
@@ -433,6 +433,11 @@
         "screen_pop": true,
         "show_panel_automatically": true,
         "utility_bar_status": true
+      },
+      "error_monitoring": {
+        "enabled": true,
+         "cc_emails": [],
+        "bcc_emails": []
       }
     }
   }
